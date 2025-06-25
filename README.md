@@ -7,7 +7,7 @@
 
 - 목표: **데이터 기반 인사이트 도출 및 시각적 보고**
   
-### 시각적 자료
+### 시스템 구성도
 
 <p align="center">
   <img width="450" alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/be7b65b3-7f2f-4e06-b2be-7d785433829a" /> 
