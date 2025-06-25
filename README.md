@@ -15,7 +15,7 @@ wh07-1st-Select 레포지토리입니다.
 ### 시각적 자료
 
 <p align="center">
-  <img width="500" height=1000 alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/be7b65b3-7f2f-4e06-b2be-7d785433829a" /> 
+  <img width="659" height=1640 alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/be7b65b3-7f2f-4e06-b2be-7d785433829a" /> 
 </p>
 
 ## 2. 프로젝트 일정 (예시 Gantt 차트)
