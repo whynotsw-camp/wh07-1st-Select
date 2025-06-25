@@ -3,11 +3,8 @@
 
 | 박민상 | 백승범 | 조설훈 | 장승원 | 홍수현 |
 |:------:|:------:|:------:|:------:|:------:|
-| ![](타마마.PNG) <br> | ![](도로로.PNG) <br> | ![](기로로.PNG) <br> | ![](케로로.PNG) <br> | ![](쿠루루.PNG) <br> |
-
-
-
-
+| <img width="500" src="https://github.com/user-attachments/assets/7711b4ff-2eeb-4c1f-ab3b-e3025375a4c1" />| <img width="600" src="https://github.com/user-attachments/assets/f930bdd2-10c9-45cc-b2b3-9c5db47ec842" /> | <img width="500" src="https://github.com/user-attachments/assets/3127d743-ccf2-41bb-8f87-deea4a62453c" /> | <img width="500" src="https://github.com/user-attachments/assets/d5db4848-c963-4e0c-9ed9-94e29cc2590f" /> | <img width="600" src="https://github.com/user-attachments/assets/64e29236-dbe5-4237-91ef-e60c290e8629" /> |
+| <a href="https://github.com/minsangggg"><img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/> | <a href="백승범님"><img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/> | <a href="https://github.com/Telkem"><img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/> | <a href="https://github.com/sswwdk"><img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/> | <a href="https://github.com/hongsh2003"><img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/> |
 
 ## 1. 프로젝트 개요
 - 프로젝트 주제: **부동산 매물 분석 및 추천 서비스**
