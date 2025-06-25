@@ -14,6 +14,7 @@ wh07-1st-Select 레포지토리입니다.
   
 ### 시각적 자료
 ![프로젝트 기획서 다이어그램] ![Uploading image.png…](https://github.com/user-attachments/assets/06d3c48f-e8ff-46b4-afd2-2206c57a7099)
+![Uploading FigJam에 오신 것을 환영합니다.png…]()
 
 
 
