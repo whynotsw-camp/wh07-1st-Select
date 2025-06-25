@@ -1,5 +1,14 @@
 # 프로젝트 기획서
 
+
+| 타마마 | 도로로 | 기로로 | 케로로 | 쿠루루 |
+|:------:|:------:|:------:|:------:|:------:|
+| ![](https://upload.wikimedia.org/wikipedia/ko/1/1b/Tamama.png) <br> 박민상 | ![](https://upload.wikimedia.org/wikipedia/ko/7/76/Dororo.png) <br> 백승범 | ![](https://upload.wikimedia.org/wikipedia/ko/8/83/Giroro.png) <br> 조설훈 | ![](https://upload.wikimedia.org/wikipedia/ko/d/d0/Keroro.png) <br> 장승원 | ![](https://upload.wikimedia.org/wikipedia/ko/d/db/Kululu.png) <br> 홍수현 |
+
+
+
+
+
 ## 1. 프로젝트 개요
 - 프로젝트 주제: **부동산 매물 분석 및 추천 서비스**
 
