@@ -3,7 +3,7 @@
 
 | 타마마 | 도로로 | 기로로 | 케로로 | 쿠루루 |
 |:------:|:------:|:------:|:------:|:------:|
-| ![](https://upload.wikimedia.org/wikipedia/ko/1/1b/Tamama.png) <br> 박민상 | ![](https://upload.wikimedia.org/wikipedia/ko/7/76/Dororo.png) <br> 백승범 | ![](https://upload.wikimedia.org/wikipedia/ko/8/83/Giroro.png) <br> 조설훈 | ![](https://upload.wikimedia.org/wikipedia/ko/d/d0/Keroro.png) <br> 장승원 | ![](https://upload.wikimedia.org/wikipedia/ko/d/db/Kululu.png) <br> 홍수현 |
+| ![](https://upload.wikimedia.org/wikipedia/ko/1/1b/Tamama.png) <br> 박민상 | ![](https://upload.wikimedia.org/wikipedia/ko/7/76/Dororo.png) <br> 백승범 | ![](https://upload.wikimedia.org/wikipedia/ko/8/83/Giroro.png) <br> 조설훈 | ![](https://upload.wikimedia.org/wikipedia/ko/d/d0/Keroro.png) <br> 장승원 | ![](쿠루루.png) <br> 홍수현 |
 
 
 
