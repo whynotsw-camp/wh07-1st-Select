@@ -1,4 +1,4 @@
-# wh07-1st-select123
+# wh07-1st-select
 
 whynotsw-camp 1st-template 레포지토리입니다.
 
