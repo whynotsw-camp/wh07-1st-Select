@@ -13,7 +13,7 @@ wh07-1st-Select 레포지토리입니다.
 - 목표: **데이터 기반 인사이트 도출 및 시각적 보고**
   
 ### 시각적 자료
-<img width="600" height=1200 alt="FigJam에 오신 것을 환영합니다" src="https://github.com/user-attachments/assets/8d3d8698-9c92-40d9-973a-e4dde7a3b233" />
+<img width="820" alt="FigJam에 오신 것을 환영합니다 (1)" src="https://github.com/user-attachments/assets/3b74f417-08a8-444e-b918-3433e1ecb138" />
 
 ## 2. 프로젝트 일정 (예시 Gantt 차트)
 ![프로젝트 일정]
