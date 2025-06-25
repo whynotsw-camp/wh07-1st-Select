@@ -1,6 +1,6 @@
 # wh07-1st-select
 
-whynotsw-camp 1st-template 레포지토리입니다. 123
+whynotsw-camp 1st-template 레포지토리입니다.
 
 -------------------
 # 1차 프로젝트 예시 템플릿
