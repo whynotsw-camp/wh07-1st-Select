@@ -13,12 +13,14 @@
 
 - 목표: **데이터 기반 인사이트 도출 및 시각적 보고**
   
-### 시스템 흐름도 / 구성도
+### 시스템 흐름도
 
 <p align="center">
   <img width="200" alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/f2f95fd7-1f6b-48b5-b579-c6218217fb60" /> 
 </p>
-<br><br>
+<br><br><br>
+
+### 시스템 구성도
 <p align="center">
   <img width="1200" alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/17a32d02-c6a9-413d-b2ed-25c3d873e426" /> 
 </p>
