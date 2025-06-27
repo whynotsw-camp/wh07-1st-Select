@@ -16,7 +16,7 @@
 ### 시스템 구성도
 
 <p align="center">
-  <img width="1200" alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/3bc43d07-1283-45a5-9b67-57a891dc3573" /> 
+  <img width="200" alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/f2f95fd7-1f6b-48b5-b579-c6218217fb60" /> 
 </p>
 
 ## 2. 프로젝트 일정 
