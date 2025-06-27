@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>상세 필터</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=SUIT:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px 0;
+      font-family: 'SUIT', sans-serif;
+    }
+    .form-container {
+      max-width: 375px;
+      width: 100%;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    .form-container h2 {
+      margin-bottom: 24px;
+      text-align: center;
+      font-weight: 600;
+      color: #333;
+      background-color: #f0f0f0;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .form-container h2 i {
+        margin-right: 8px;
+        color: #3a86ff;
+        display: none;
+    }
+    .form-group {
+      margin-bottom: 0;
+    }
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+      font-weight: 400;
+      cursor: pointer;
+      color: #333;
+      font-size: 16px;
+    }
+    .checkbox-group label:first-child {
+        border-top: 1px solid #eee;
+    }
+    .checkbox-group input[type="checkbox"] {
+      margin-right: 15px;
+      transform: scale(1.2);
+      flex-shrink: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      position: relative;
+      cursor: pointer;
+      outline: none;
+    }
+    .checkbox-group input[type="checkbox"]:checked {
+      background-color: #3a86ff;
+      border-color: #3a86ff;
+    }
+    .checkbox-group input[type="checkbox"]:checked::after {
+      content: '\2713';
+      font-size: 14px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 30px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .button-group button {
+      padding: 14px 0;
+      font-size: 16px;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      flex-basis: calc(50% - 5px);
+      box-sizing: border-box;
+      color: white;
+    }
+    .button-group .previous-button {
+      background-color: #6c757d;
+    }
+    .button-group .previous-button:hover {
+      background-color: #5a6268;
+    }
+    .button-group .submit-button {
+      background-color: #3a86ff;
+    }
+    .button-group .submit-button:hover {
+      background-color: #2a6edc;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>원하는 조건을 선택하세요</h2>
+
+    <form id="detailFiltersForm" action="filters.html" method="get">
+      <div class="form-group checkbox-group">
+        <label><input type="checkbox" name="option" value="주차 가능" /> 주차 가능</label>
+        <label><input type="checkbox" name="option" value="관리비 있음" /> 관리비 있음</label>
+        <label><input type="checkbox" name="option" value="반려동물 가능" /> 반려동물 가능</label>
+        <label><input type="checkbox" name="option" value="반지하 가능" /> 반지하 가능</label>
+        <label><input type="checkbox" name="option" value="세탁기" /> 세탁기</label>
+        <label><input type="checkbox" name="option" value="건조기" /> 건조기</label>
+        <label><input type="checkbox" name="option" value="에어컨" /> 에어컨</label>
+        <label><input type="checkbox" name="option" value="가스레인지" /> 가스레인지</label>
+        <label><input type="checkbox" value="인덕션" /> 인덕션</label>
+        <label><input type="checkbox" name="option" value="엘리베이터" /> 엘리베이터</label>
+        <label><input type="checkbox" name="option" value="역 근처" /> 역 근처</label>
+      </div>
+
+      <div class="button-group">
+        <button type="button" class="previous-button" onclick="history.back()">이전</button>
+        <button type="submit" class="submit-button">확인</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('detailFiltersForm');
+        const checkboxes = form.querySelectorAll('input[type="checkbox"][name="option"]');
+        const localStorageKey = 'selectedDetailOptions'; // localStorage에 저장할 키
+
+        // 페이지 로드 시 localStorage에서 저장된 옵션 로드
+        function loadSelectedOptions() {
+            const savedOptionsJson = localStorage.getItem(localStorageKey);
+            if (savedOptionsJson) {
+                const savedOptions = JSON.parse(savedOptionsJson);
+                checkboxes.forEach(checkbox => {
+                    if (savedOptions.includes(checkbox.value)) {
+                        checkbox.checked = true;
+                    } else {
+                        checkbox.checked = false; // 저장된 목록에 없으면 체크 해제
+                    }
+                });
+            } else {
+                // 저장된 옵션이 없으면 모든 체크박스 해제 (초기화)
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+            }
+        }
+
+        // "확인" 버튼 클릭 시 선택된 옵션 localStorage에 저장
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // 기본 폼 제출 방지
+
+            const selectedOptions = [];
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    selectedOptions.push(checkbox.value);
+                }
+            });
+
+            // 선택된 옵션 배열을 JSON 문자열로 변환하여 localStorage에 저장
+            localStorage.setItem(localStorageKey, JSON.stringify(selectedOptions));
+
+            // filters.html로 이동
+            window.location.href = form.action;
+        });
+
+        // 페이지 로드 시 옵션 로드 함수 실행
+        loadSelectedOptions();
+    });
+  </script>
+</body>
+</html>
