@@ -40,6 +40,8 @@
   --------------------------
 
 # 작업 분할 구조 (WBS)
+<img width="1200" alt="FigJam에 오신 것을 환영합니다 (4)" src="https://github.com/user-attachments/assets/661abf23-4002-4713-975a-094532bfaa65" /> 
+
 
 ## 단계별 작업 구성
 ## 1. 문제 및 데이터 요구사항 정의
